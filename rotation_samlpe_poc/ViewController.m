@@ -16,16 +16,23 @@
 @end
 
 @implementation ViewController
-
+/**
+ * Initializes and  */
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
-
+/**
+ * Initializes and returns a newly a
+ */
 -(BOOL)shouldAutorotate
 {
 return YES;
 }
+
+/**
+ * Initializes and returns a n
+  */
 
 -(NSUInteger)supportedInterfaceOrientations {
     return UIInterfaceOrientationMaskAllButUpsideDown; // or however you want to rotate
@@ -34,7 +41,8 @@ return YES;
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+/**
+ * Initializes and returns a newly  */
 - (IBAction)click:(id)sender {
     ViewController *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:NULL]
                                       instantiateViewControllerWithIdentifier:@"detailtemplate"];
@@ -47,11 +55,14 @@ return YES;
     [self presentModalViewController:vc animated:NO];
     
 }
-
+/**
+ * Initializes  */
 - (IBAction)seting:(id)sender {
     [self openSettings];
 }
-
+/**
+ * Initializes and returns a newly allocated view object with the specified frame rectangle.
+ */
 - (void)openSettings
 {
     BOOL canOpenSettings = (&UIApplicationOpenSettingsURLString != NULL);

@@ -30,7 +30,7 @@
 }
 
 
-/*
+/**
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -45,7 +45,9 @@
     return UIInterfaceOrientationMaskPortrait;
 }
 
-
+/**
+ * Initializes and returns a newly allocated view object with the specified frame rectangle.
+ */
 - (IBAction)back:(id)sender {
     deatilViewController *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:NULL]
                                       instantiateViewControllerWithIdentifier:@"viewtemplate"];
