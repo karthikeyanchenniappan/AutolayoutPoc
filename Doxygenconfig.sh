@@ -1,5 +1,6 @@
 #!/bin/sh
-
+SOURCE_ROOT= var/lib/jenkins/test/Workspaces
+TEMP_DIR=var/lib/jenkins/test
 if ! [ -f $SOURCE_ROOT/doxygen.config ]
 
 then
