@@ -31,7 +31,7 @@ return YES;
 }
 
 /**
- * Initializes and returns a n
+ * Everything is under control now.
   */
 
 -(NSUInteger)supportedInterfaceOrientations {
