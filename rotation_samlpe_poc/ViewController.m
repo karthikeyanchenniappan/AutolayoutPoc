@@ -72,5 +72,11 @@ return YES;
     }
 }
 
+/**
+ * New method added to Subramani super man
+ */
+-(void)closeSettings
+{
+}
 
 @end
